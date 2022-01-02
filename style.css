@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url("./img/Pricing-Page-Template-For-Sketch.jpg");
+    background-color: rgb(6, 6, 77);
+    background-blend-mode: screen;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.prev, .next {
+    padding: 10px 20px;
+    margin: 4px;
+    text-transform: uppercase;
+}
